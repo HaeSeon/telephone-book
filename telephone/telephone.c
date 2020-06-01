@@ -33,7 +33,7 @@ int included(char s1[40], char s2[40]);	//포함되었는지 검색
 int main(void) {
 
 	FILE* fr = NULL;
-	fopen_s(&fr, "C:\\Users\\gildo\\Develop\\CPL2\\telephone\\data.txt", "r");
+	fr=fopen("C:\\Users\\gildo\\Develop\\CPL2\\telephone\\data.txt", "r");
 	if (fr == NULL) {
 		fprintf(stderr, "파일을 읽을 수 없습니다.");
 		return -1;                //파일을 쓸 수 없을 때(-1의 반환은 비정상적 종료 의미)
@@ -68,7 +68,7 @@ int main(void) {
 	fclose(fr);
 	//intro();
 	printf("%d\n", person);
-	//add(user, &person);
+	add(user, &person);
 	
 	
 	//delete(user, &person);
@@ -96,13 +96,14 @@ void add(User* ptr, int* num) {
 	
     if (*num < MAX_NUM) {
 		FILE* fp=NULL;
-		fopen_s(&fp, "c:\\users\\gildo\\develop\\cpl2\\telephone\\data.txt", "r+");   //입력 스트림 형성
+		fopen(&fp, "c:\\users\\gildo\\develop\\cpl2\\telephone\\data.txt", "r+");   //입력 스트림 형성
 		if (fp == NULL) {
 			fprintf(stderr, "can not read file.\n");
 			return -1;                //파일을 쓸 수 없을 때(-1의 반환은 비정상적 종료 의미)
 		}
 		scanf("\n%s %s %s %s", ptr[*num].name,ptr[*num].phone1, ptr[*num].phone2, ptr[*num].memo);
-		
+
+
 		fseek(fp, 0, SEEK_END);
 		fputs(ptr[*num].name, fp);
 		fputs(" ", fp);
@@ -136,7 +137,7 @@ int delete(User* ptr, int* num) {
 
 	
 		FILE* fp = NULL;
-		fopen_s(&fp, "c:\\users\\gildo\\develop\\cpl2\\telephone\\data.txt", "w");   //입력 스트림 형성
+		fopen(&fp, "c:\\users\\gildo\\develop\\cpl2\\telephone\\data.txt", "w");   //입력 스트림 형성
 		if (fp == NULL) {
 			fprintf(stderr, "can not read file.\n");
 			return -1;                //파일을 쓸 수 없을 때(-1의 반환은 비정상적 종료 의미)

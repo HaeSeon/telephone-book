@@ -1,16 +1,17 @@
 ﻿  telephone.c
-C:\Users\gildo\Develop\CPL2\telephone\telephone\telephone.c(76,11): warning C4047: 'function': 'char **' differs in levels of indirection from 'User [100]'
-C:\Users\gildo\Develop\CPL2\telephone\telephone\telephone.c(76,11): warning C4024: 'sort': different types for formal and actual parameter 1
-C:\Users\gildo\Develop\CPL2\telephone\telephone\telephone.c(76,20): warning C4020: 'sort': too many actual parameters
 C:\Users\gildo\Develop\CPL2\telephone\telephone\telephone.c(43,1): warning C4047: 'initializing': 'char' differs in levels of indirection from 'void *'
-C:\Users\gildo\Develop\CPL2\telephone\telephone\telephone.c(104,13): warning C4098: 'add': 'void' function returning a value
-C:\Users\gildo\Develop\CPL2\telephone\telephone\telephone.c(125,11): warning C4098: 'add': 'void' function returning a value
-C:\Users\gildo\Develop\CPL2\telephone\telephone\telephone.c(189,29): warning C4047: '=': 'char' differs in levels of indirection from 'void *'
+C:\Users\gildo\Develop\CPL2\telephone\telephone\telephone.c(99,12): warning C4047: 'function': 'const char *' differs in levels of indirection from 'FILE **'
+C:\Users\gildo\Develop\CPL2\telephone\telephone\telephone.c(99,12): warning C4024: 'fopen': different types for formal and actual parameter 1
+C:\Users\gildo\Develop\CPL2\telephone\telephone\telephone.c(99,74): warning C4020: 'fopen': too many actual parameters
+C:\Users\gildo\Develop\CPL2\telephone\telephone\telephone.c(102,13): warning C4098: 'add': 'void' function returning a value
+C:\Users\gildo\Develop\CPL2\telephone\telephone\telephone.c(124,11): warning C4098: 'add': 'void' function returning a value
+C:\Users\gildo\Develop\CPL2\telephone\telephone\telephone.c(140,12): warning C4047: 'function': 'const char *' differs in levels of indirection from 'FILE **'
+C:\Users\gildo\Develop\CPL2\telephone\telephone\telephone.c(140,12): warning C4024: 'fopen': different types for formal and actual parameter 1
+C:\Users\gildo\Develop\CPL2\telephone\telephone\telephone.c(140,73): warning C4020: 'fopen': too many actual parameters
+C:\Users\gildo\Develop\CPL2\telephone\telephone\telephone.c(188,29): warning C4047: '=': 'char' differs in levels of indirection from 'void *'
+C:\Users\gildo\Develop\CPL2\telephone\telephone\telephone.c(189,31): warning C4047: '=': 'char' differs in levels of indirection from 'void *'
 C:\Users\gildo\Develop\CPL2\telephone\telephone\telephone.c(190,31): warning C4047: '=': 'char' differs in levels of indirection from 'void *'
-C:\Users\gildo\Develop\CPL2\telephone\telephone\telephone.c(191,31): warning C4047: '=': 'char' differs in levels of indirection from 'void *'
-C:\Users\gildo\Develop\CPL2\telephone\telephone\telephone.c(192,29): warning C4047: '=': 'char' differs in levels of indirection from 'void *'
-C:\Users\gildo\Develop\CPL2\telephone\telephone\telephone.c(137,9): warning C4101: 'j': unreferenced local variable
-C:\Users\gildo\Develop\CPL2\telephone\telephone\telephone.c(225,25): warning C4047: '==': 'int' differs in levels of indirection from 'void *'
-C:\Users\gildo\Develop\CPL2\telephone\telephone\telephone.c(282,32): warning C4028: formal parameter 1 different from declaration
-C:\Users\gildo\Develop\CPL2\telephone\telephone\telephone.c(282,32): warning C4029: declared formal parameter list different from definition
+C:\Users\gildo\Develop\CPL2\telephone\telephone\telephone.c(191,29): warning C4047: '=': 'char' differs in levels of indirection from 'void *'
+C:\Users\gildo\Develop\CPL2\telephone\telephone\telephone.c(136,9): warning C4101: 'j': unreferenced local variable
+C:\Users\gildo\Develop\CPL2\telephone\telephone\telephone.c(224,25): warning C4047: '==': 'int' differs in levels of indirection from 'void *'
   telephone.vcxproj -> C:\Users\gildo\Develop\CPL2\telephone\Debug\telephone.exe
