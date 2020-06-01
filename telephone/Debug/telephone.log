@@ -1,0 +1,16 @@
+﻿  telephone.c
+C:\Users\gildo\Develop\CPL2\telephone\telephone\telephone.c(76,11): warning C4047: 'function': 'char **' differs in levels of indirection from 'User [100]'
+C:\Users\gildo\Develop\CPL2\telephone\telephone\telephone.c(76,11): warning C4024: 'sort': different types for formal and actual parameter 1
+C:\Users\gildo\Develop\CPL2\telephone\telephone\telephone.c(76,20): warning C4020: 'sort': too many actual parameters
+C:\Users\gildo\Develop\CPL2\telephone\telephone\telephone.c(43,1): warning C4047: 'initializing': 'char' differs in levels of indirection from 'void *'
+C:\Users\gildo\Develop\CPL2\telephone\telephone\telephone.c(104,13): warning C4098: 'add': 'void' function returning a value
+C:\Users\gildo\Develop\CPL2\telephone\telephone\telephone.c(125,11): warning C4098: 'add': 'void' function returning a value
+C:\Users\gildo\Develop\CPL2\telephone\telephone\telephone.c(189,29): warning C4047: '=': 'char' differs in levels of indirection from 'void *'
+C:\Users\gildo\Develop\CPL2\telephone\telephone\telephone.c(190,31): warning C4047: '=': 'char' differs in levels of indirection from 'void *'
+C:\Users\gildo\Develop\CPL2\telephone\telephone\telephone.c(191,31): warning C4047: '=': 'char' differs in levels of indirection from 'void *'
+C:\Users\gildo\Develop\CPL2\telephone\telephone\telephone.c(192,29): warning C4047: '=': 'char' differs in levels of indirection from 'void *'
+C:\Users\gildo\Develop\CPL2\telephone\telephone\telephone.c(137,9): warning C4101: 'j': unreferenced local variable
+C:\Users\gildo\Develop\CPL2\telephone\telephone\telephone.c(225,25): warning C4047: '==': 'int' differs in levels of indirection from 'void *'
+C:\Users\gildo\Develop\CPL2\telephone\telephone\telephone.c(282,32): warning C4028: formal parameter 1 different from declaration
+C:\Users\gildo\Develop\CPL2\telephone\telephone\telephone.c(282,32): warning C4029: declared formal parameter list different from definition
+  telephone.vcxproj -> C:\Users\gildo\Develop\CPL2\telephone\Debug\telephone.exe
